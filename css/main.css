@@ -588,7 +588,7 @@ body {
   background-color: rgba(0, 0, 0, 0.1); }
 
 section {
-  padding-left: 220px;
+  padding-left: 250px;
   -webkit-transition: all 340ms ease-in-out;
   -moz-transition: all 340ms ease-in-out;
   -ms-transition: all 340ms ease-in-out;
@@ -628,7 +628,7 @@ section:not(:first-of-type) {
 .navbar {
   border-right: 1px solid #eee;
   background-color: #fff;
-  width: 220px;
+  width: 250px;
   display: block;
   position: fixed;
   height: 100vh;
@@ -640,7 +640,7 @@ section:not(:first-of-type) {
   .navbar.open-nav {
     left: 0; }
   .navbar.default-menu {
-    width: 220px; }
+    width: 250px; }
   .navbar.small-menu {
     width: 100px; }
     .navbar.small-menu .social-media {
@@ -664,12 +664,12 @@ section:not(:first-of-type) {
   .navbar .navbar-nav {
     display: block;
     box-shadow: -3px 5px 12px #f1f1f1;
-    width: 110px; }
+    width: 210px; }
   .navbar .nav-item {
-    margin: 16px 0;
+    margin: 10px 0;
     text-align: center;
     border-bottom: 1px solid #eee;
-    padding-bottom: 10px; }
+    padding-bottom: 8px; }
     .navbar .nav-item:last-child {
       border: none;
       margin-bottom: 0; }
