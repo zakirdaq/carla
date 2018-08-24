@@ -175,7 +175,7 @@ section:not(:first-of-type) {
     .navbar-nav {
         display: block;
         box-shadow: -3px 5px 12px #f1f1f1;
-        width: 110px;
+        width: 180px;
     }
     .nav-item {
         margin: 16px 0;
@@ -187,13 +187,13 @@ section:not(:first-of-type) {
             margin-bottom: 0;
         }
         a {
-            font-size: 14px;
+            font-size: 13px;
             color: #333;
         }
         i {
             display: block!important;
             padding-bottom: 6px;
-            font-size: 16px;
+            font-size: 14px;
             &.icon-picture,
             &.icon-envelope {
                 font-size: 14px;
@@ -399,12 +399,14 @@ section.close-menu {
         z-index: 3;
         h1 {
             font-size: 55px;
+            color: #fff;
         }
         p {
             margin-bottom: 33px;
             letter-spacing: 0.7px;
             margin-top: -4px;
             font-size: 22px;
+            color: #fff;
         }
         .typed-cursor, .type {
             display: inline;
@@ -417,7 +419,6 @@ section.close-menu {
                 font-size: 15px;
                 letter-spacing: 1.4px;
                 border-radius: 2px;
-                box-shadow: -1px 3px 11px #888;
                 @include animate( all, 200ms, ease-in-out );
                 &:hover {
                     box-shadow: none;
@@ -757,6 +758,99 @@ section.close-menu {
     }
 }
 
+/*==========================================================
+
+                    4. keynote  NAVBAR STYLESHEET
+
+===========================================================*/
+
+.keynote {
+    .title {
+        h1 {
+            &:before {
+                content: 'Speaking';
+            }
+        }
+    }
+    .container {
+        overflow: hidden;
+    }
+    .tabs-about {
+        ul {
+            border-bottom: 1px solid #eee;
+        }
+        .tab-content {
+            .tab-pane {
+                padding: 30px 20px 0;
+                p {
+                    font-size: 14px;
+                    color: #666;
+                }
+                &.profile {
+                    .title-info {
+                        max-width: 145px;
+                        width: 100%;
+                        display: inline-block;
+                    }
+                    h6 {
+                        padding: 6px 0;
+                        font-size: 15px;
+                        span{
+                            &:last-child {
+                                color: #777;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav-item {
+            background-color: #fff;
+            margin-bottom: 0;
+            margin: 0 auto 0;
+        }
+        .nav-link {
+            color: #1e1e1e;
+            font-size: 15px;
+            &:hover {
+                border-color: transparent;
+            }
+            i {
+                font-size: 17px;
+                display: block;
+                padding-bottom: 9px;
+                padding-top: 3px;
+                @include animate( all, 220ms, ease-in-out );
+            }
+        }
+        .nav-link.active {
+            background-color: transparent;
+            border: none;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+}
+
+/*==========================================================
+
+                    4. educational  NAVBAR STYLESHEET
+
+===========================================================*/
+
+.educational {
+    .title {
+        h1 {
+            &:before {
+                content: 'Educational Consultant';
+            }
+        }
+    }
+    .container {
+        overflow: hidden;
+    }
+}
+
 
 /*==========================================================
 
@@ -814,6 +908,39 @@ section.close-menu {
                     color: #fff;
                 }
             }
+        }
+    }
+}
+
+
+/*==========================================================
+
+                    5. Awards and Features HEADER STYLESHEET
+
+===========================================================*/
+
+.award {
+    .title {
+        h1 {
+            &:before {
+                content: 'Awards and Features';
+            }
+        }
+    }
+    .content {
+        margin-bottom: 40px;
+        padding-left: 10px;
+        img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        h4 {
+            font-size: 19px;
+        }
+        p {
+            font-size: 13px;
+            color: #555;
+            letter-spacing: 0.3px;
         }
     }
 }

@@ -556,6 +556,14 @@ i {
 
 .icon-zoom-out:before {
   content: "\e99f"; }
+  
+.icon-youngleaders {
+	background-image: url(../images/youngleaders.png);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    margin: auto;
+}  
 
 * {
   -webkit-box-sizing: border-box;
@@ -588,7 +596,7 @@ body {
   background-color: rgba(0, 0, 0, 0.1); }
 
 section {
-  padding-left: 250px;
+  padding-left: 220px;
   -webkit-transition: all 340ms ease-in-out;
   -moz-transition: all 340ms ease-in-out;
   -ms-transition: all 340ms ease-in-out;
@@ -628,7 +636,7 @@ section:not(:first-of-type) {
 .navbar {
   border-right: 1px solid #eee;
   background-color: #fff;
-  width: 250px;
+  width: 220px;
   display: block;
   position: fixed;
   height: 100vh;
@@ -640,7 +648,7 @@ section:not(:first-of-type) {
   .navbar.open-nav {
     left: 0; }
   .navbar.default-menu {
-    width: 250px; }
+    width: 220px; }
   .navbar.small-menu {
     width: 100px; }
     .navbar.small-menu .social-media {
@@ -664,7 +672,7 @@ section:not(:first-of-type) {
   .navbar .navbar-nav {
     display: block;
     box-shadow: -3px 5px 12px #f1f1f1;
-    width: 210px; }
+    width: 180px; }
   .navbar .nav-item {
     margin: 10px 0;
     text-align: center;
@@ -674,12 +682,12 @@ section:not(:first-of-type) {
       border: none;
       margin-bottom: 0; }
     .navbar .nav-item a {
-      font-size: 14px;
+      font-size: 13px;
       color: #333; }
     .navbar .nav-item i {
       display: block !important;
       padding-bottom: 6px;
-      font-size: 16px; }
+      font-size: 14px; }
       .navbar .nav-item i.icon-picture, .navbar .nav-item i.icon-envelope {
         font-size: 14px; }
   .navbar .collapse-menu {
@@ -887,12 +895,14 @@ section.close-menu {
     transform: translateY(-50%);
     z-index: 3; }
     .home .title h1 {
-      font-size: 55px; }
+      font-size: 55px;                
+	  color: #fff; }
     .home .title p {
       margin-bottom: 33px;
       letter-spacing: 0.7px;
       margin-top: -4px;
-      font-size: 22px; }
+      font-size: 22px;
+	  color: #fff; }
     .home .title .typed-cursor, .home .title .type {
       display: inline; }
     .home .title .btn-home {
@@ -903,7 +913,6 @@ section.close-menu {
         font-size: 15px;
         letter-spacing: 1.4px;
         border-radius: 2px;
-        box-shadow: -1px 3px 11px #888;
         -webkit-transition: all 200ms ease-in-out;
         -moz-transition: all 200ms ease-in-out;
         -ms-transition: all 200ms ease-in-out;
@@ -1196,6 +1205,66 @@ section.close-menu {
 
 /*==========================================================
 
+                    4. keynote  NAVBAR STYLESHEET
+
+===========================================================*/
+.keynote .title h1:before {
+  content: 'Speaking'; }
+.keynote .container {
+  overflow: hidden; }
+.keynote .tabs-about ul {
+  border-bottom: 1px solid #eee; }
+.keynote .tabs-about .tab-content .tab-pane {
+  padding: 30px 20px 0; }
+  .keynote .tabs-about .tab-content .tab-pane p {
+    font-size: 14px;
+    color: #666; }
+  .about .tabs-about .tab-content .tab-pane.profile .title-info {
+    max-width: 145px;
+    width: 100%;
+    display: inline-block; }
+  .about .tabs-about .tab-content .tab-pane.profile h6 {
+    padding: 6px 0;
+    font-size: 15px; }
+    .about .tabs-about .tab-content .tab-pane.profile h6 span:last-child {
+      color: #777; }
+.keynote .tabs-about .nav-item {
+  background-color: #fff;
+  margin-bottom: 0;
+  margin: 0 auto 0; }
+.keynote .tabs-about .nav-link {
+  color: #1e1e1e;
+  font-size: 15px; }
+  .keynote .tabs-about .nav-link:hover {
+    border-color: transparent; }
+  .keynote .tabs-about .nav-link i {
+    font-size: 17px;
+    display: block;
+    padding-bottom: 9px;
+    padding-top: 3px;
+    -webkit-transition: all 220ms ease-in-out;
+    -moz-transition: all 220ms ease-in-out;
+    -ms-transition: all 220ms ease-in-out;
+    -o-transition: all 220ms ease-in-out;
+    transition: all 220ms ease-in-out; }
+.keynote .tabs-about .nav-link.active {
+  background-color: transparent;
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+/*==========================================================
+
+                    4. educational  NAVBAR STYLESHEET
+
+===========================================================*/
+.educational .title h1:before {
+  content: 'Educational Consultant'; }
+.educational .container {
+  overflow: hidden; }
+
+/*==========================================================
+
                     5. SERVICES HEADER STYLESHEET
 
 ===========================================================*/
@@ -1205,7 +1274,7 @@ section.close-menu {
   margin-bottom: 40px;
   padding-left: 10px; }
   .serv .content img {
-    max-width: 50px;
+    max-width: 200px;
     margin-bottom: 20px; }
   .serv .content h4 {
     font-size: 19px; }
@@ -1240,6 +1309,26 @@ section.close-menu {
     transition: all 320ms ease-in-out; }
     .serv .serv-vid .play:hover i {
       color: #fff; }
+
+/*==========================================================
+
+                    5. SERVICES HEADER STYLESHEET
+
+===========================================================*/
+.award .title h1:before {
+  content: 'Awards and Features'; }
+.award .content {
+  margin-bottom: 40px;
+  padding-left: 10px; }
+  .award .content img {
+    max-width: 200px;
+    margin-bottom: 20px; }
+  .award .content h4 {
+    font-size: 19px; }
+  .award .content p {
+    font-size: 13px;
+    color: #555;
+    letter-spacing: 0.3px; }
 
 /*==========================================================
 

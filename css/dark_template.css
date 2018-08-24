@@ -23,7 +23,7 @@ footer,
 .home .slider .slick-next:hover,
 footer p,
 .testim .tabbable .tab-content .profile-details i,
-.serv .content h4,
+.serv .content h4, .award .content h4,
 .about .tabs-about .tab-content .tab-pane .skills .progress .progress-bar:before,
 .about .tabs-about .tab-content .tab-pane .skills .progress-text,
 .about .tabs-about .tab-content .tab-pane.profile .title-info,
@@ -43,7 +43,7 @@ footer p,
   color: #eee; }
 
 .testim .tabbable .tab-content .profile-details p,
-.serv .content p,
+.serv .content p, .award .content p,
 .about .tabs-about .tab-content .tab-pane p {
   color: #aaa; }
 
