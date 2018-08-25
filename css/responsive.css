@@ -6,7 +6,7 @@
     section {
         padding-left: 0;
     }
-    section.about, section.serv {
+    section.about, section.keynote, section.educational, section.serv, section.award, section.course {
         height: 100%;
     }
     .navbar {

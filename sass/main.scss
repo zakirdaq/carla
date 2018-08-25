@@ -93,7 +93,9 @@ section {
     &.about,
 	&.keynote,
 	&.educational,
-    &.serv {
+    &.serv,
+    &.award,
+    &.course {
         height: 100vh;
     }
 }
