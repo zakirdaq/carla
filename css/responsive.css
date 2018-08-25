@@ -120,6 +120,92 @@
         font-size: 13px;
     }
     
+    /* Keynote */
+    
+    .title {
+        padding: 70px 30px;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+    .keynote .tabs-about {
+        margin-bottom: 50px;
+    }
+    .keynote .tabs-about .tab-content .tab-pane .skills {
+        padding: 0 10px;
+    }
+    .keynote .tabs-about .tab-content .tab-pane {
+        padding: 30px 0 0;
+    }
+    .about .tabs-about .tab-content .tab-pane.profile .title-info {
+        max-width: 120px;
+    }
+    .keynote .tabs-about .tab-content .tab-pane .skills .progress-text,
+    .keynote .tabs-about .tab-content .tab-pane.profile h6,
+    .keynote .tabs-about .tab-content .tab-pane p {
+        font-size: 13px;
+    }
+    .keynote .tabs-about .nav-link.active {
+        border-top: none;
+    }
+    .keynote .tabs-about .nav-link,
+    .keynote .tabs-about .nav-link i {
+        font-size: 14px;
+    }
+    .keynote .about-img {
+        width: 100%;
+    }
+    .keynote .about-img.show-img-abt {
+        margin-left: auto;
+    }
+    .keynote .tabs-about .tab-content .tab-pane .btn-about a {
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+    
+    /* Educational */
+    
+    .title {
+        padding: 70px 30px;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+    .educational .tabs-about {
+        margin-bottom: 50px;
+    }
+    .educational .tabs-about .tab-content .tab-pane .skills {
+        padding: 0 10px;
+    }
+    .educational .tabs-about .tab-content .tab-pane {
+        padding: 30px 0 0;
+    }
+    .educational .tabs-about .tab-content .tab-pane.profile .title-info {
+        max-width: 120px;
+    }
+    .educational .tabs-about .tab-content .tab-pane .skills .progress-text,
+    .educational .tabs-about .tab-content .tab-pane.profile h6,
+    .educational .tabs-about .tab-content .tab-pane p {
+        font-size: 13px;
+    }
+    .educational .tabs-about .nav-link.active {
+        border-top: none;
+    }
+    .educational .tabs-about .nav-link,
+    .educational .tabs-about .nav-link i {
+        font-size: 14px;
+    }
+    .educational .about-img {
+        width: 100%;
+    }
+    .educational .about-img.show-img-abt {
+        margin-left: auto;
+    }
+    .educational .tabs-about .tab-content .tab-pane .btn-about a {
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+    
     /* Services */
     
     .serv .serv-vid {

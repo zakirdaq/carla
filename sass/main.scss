@@ -91,6 +91,8 @@ section {
     @include animate( all, 340ms, ease-in-out);
     height: 100%;
     &.about,
+	&.keynote,
+	&.educational,
     &.serv {
         height: 100vh;
     }
@@ -912,6 +914,38 @@ section.close-menu {
     }
 }
 
+/*==========================================================
+
+                    5. COURSES HEADER STYLESHEET
+
+===========================================================*/
+
+.course {
+    .title {
+        h1 {
+            &:before {
+                content: 'courses';
+            }
+        }
+    }
+    .content {
+        margin-bottom: 40px;
+        padding-left: 10px;
+        img {
+            max-width: 50px;
+            margin-bottom: 20px;
+        }
+        h4 {
+            font-size: 19px;
+        }
+        p {
+            font-size: 13px;
+            color: #555;
+            letter-spacing: 0.3px;
+        }
+    }
+}
+
 
 /*==========================================================
 
@@ -956,7 +990,7 @@ section.close-menu {
     .title {
         h1 {
             &:before {
-                content: 'portfolio';
+                content: 'Global Work';
             }
         }
     }
@@ -1007,7 +1041,6 @@ section.close-menu {
                     text-align: left;
                     h4 {
                         font-size: 34px;
-                        margin-bottom: -3px;
                     }
                     span {
                         font-size: 17px;

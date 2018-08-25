@@ -4,7 +4,7 @@ footer p a,
 footer p a:hover,
 .testim .tabbable .tab-content .profile-details h4,
 .serv .serv-vid .play i,
-.about .tabs-about .nav-link.active,
+.about .tabs-about .nav-link.active, .keynote .tabs-about .nav-link.active,
 .navbar .social-media a:hover,
 .navbar .nav-item.active-nav a {
     color: #b0914f; 
@@ -45,7 +45,7 @@ footer p a:hover,
     border-bottom: 2px solid #b0914f;
 }
 
-.about .tabs-about .nav-link.active {
+.about .tabs-about .nav-link.active, .keynote .tabs-about .nav-link.active {
   border-top: 2px solid #b0914f;
 }
 

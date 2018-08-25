@@ -6,8 +6,8 @@ footer,
 .navbar .navbar-toggler,
 .contact .form .form-group textarea,
 .contact .form .form-group input,
-.about .tabs-about .nav-item,
-.about .tabs-about .nav-link.active,
+.about .tabs-about .nav-item, .keynote .tabs-about .nav-item,
+.about .tabs-about .nav-link.active, .keynote .tabs-about .nav-link.active,
 .option-box .color-option,
 .option-box .gear-check,
 .navbar {
@@ -39,7 +39,7 @@ footer p,
 .home .title p,
 .work .shuffle ul li,
 .about .tabs-about .tab-content .tab-pane.profile h6 span:last-child,
-.about .tabs-about .nav-link,
+.about .tabs-about .nav-link, .keynote .tabs-about .nav-link,
 .title h1,
 .option-box .color-option ul li span,
 .option-box .gear-check {
@@ -48,7 +48,7 @@ footer p,
 
 .testim .tabbable .tab-content .profile-details p,
 .serv .content p, .award .content p,
-.about .tabs-about .tab-content .tab-pane p {
+.about .tabs-about .tab-content .tab-pane p, .keynote .tabs-about .tab-content .tab-pane p {
     color: #aaa;
 }
 
@@ -72,7 +72,7 @@ footer {
 .navbar { 
     border-right: 1px solid #000;
 }
-.about .tabs-about ul,
+.about .tabs-about ul, .keynote .tabs-about ul,
 .navbar .nav-item {
     border-bottom: 1px solid #1d1d1d;
 }

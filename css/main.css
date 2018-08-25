@@ -558,7 +558,7 @@ i {
   content: "\e99f"; }
   
 .icon-youngleaders {
-	background-image: url(../images/youngleaders.png);
+	background-image: url(../images/young-leaders.png);
     height: 80px;
     width: 80px;
     background-size: cover;
@@ -579,6 +579,7 @@ a {
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
@@ -1312,7 +1313,27 @@ section.close-menu {
 
 /*==========================================================
 
-                    5. SERVICES HEADER STYLESHEET
+                    5. COURSES HEADER STYLESHEET
+
+===========================================================*/
+.course .title h1:before {
+  content: 'Courses'; }
+.course .content {
+  margin-bottom: 40px;
+  padding-left: 10px; }
+  .course .content img {
+    max-width: 200px;
+    margin-bottom: 20px; }
+  .course .content h4 {
+    font-size: 19px; }
+  .course .content p {
+    font-size: 13px;
+    color: #555;
+    letter-spacing: 0.3px; }
+
+/*==========================================================
+
+                    5. Awards and Features HEADER STYLESHEET
 
 ===========================================================*/
 .award .title h1:before {
@@ -1336,7 +1357,7 @@ section.close-menu {
 
 ===========================================================*/
 .work .title h1:before {
-  content: 'portfolio'; }
+  content: 'Global Work'; }
 .work .shuffle {
   margin-bottom: 40px; }
   .work .shuffle ul {
@@ -1388,8 +1409,7 @@ section.close-menu {
       left: 20px;
       text-align: left; }
       .work .gallery .item .over .info-img h4 {
-        font-size: 34px;
-        margin-bottom: -3px; }
+        font-size: 34px; }
       .work .gallery .item .over .info-img span {
         font-size: 17px;
         letter-spacing: 0.8px; }
