@@ -910,7 +910,7 @@ section.close-menu {
       margin-top: 40px; }
       .home .title .btn-home a {
         color: #fff;
-        padding: 10px 34px;
+        padding: 6px 20px;
         font-size: 15px;
         letter-spacing: 1.4px;
         border-radius: 2px;
@@ -1280,7 +1280,7 @@ section.close-menu {
   .serv .content h4 {
     font-size: 19px; }
   .serv .content p {
-    font-size: 13px;
+    font-size: 14px;
     color: #555;
     letter-spacing: 0.3px; }
 .serv .serv-vid {
@@ -1327,7 +1327,7 @@ section.close-menu {
   .course .content h4 {
     font-size: 19px; }
   .course .content p {
-    font-size: 13px;
+    font-size: 14px;
     color: #555;
     letter-spacing: 0.3px; }
 
@@ -1342,12 +1342,12 @@ section.close-menu {
   margin-bottom: 40px;
   padding-left: 10px; }
   .award .content img {
-    max-width: 200px;
+    max-width: 150px;
     margin-bottom: 20px; }
   .award .content h4 {
     font-size: 19px; }
   .award .content p {
-    font-size: 13px;
+    font-size: 14px;
     color: #555;
     letter-spacing: 0.3px; }
 
