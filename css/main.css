@@ -559,8 +559,8 @@ i {
   
 .icon-youngleaders {
 	background-image: url(../images/young-leaders.png);
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     background-size: cover;
     margin: auto;
 }  
@@ -1336,17 +1336,15 @@ section.close-menu {
                     5. Awards and Features HEADER STYLESHEET
 
 ===========================================================*/
-.award .title h1:before {
-  content: 'Awards and Features'; }
-.award .content {
+.awards .content {
   margin-bottom: 40px;
   padding-left: 10px; }
-  .award .content img {
+  .awards .content img {
     max-width: 150px;
     margin-bottom: 20px; }
-  .award .content h4 {
+  .awards .content h4 {
     font-size: 19px; }
-  .award .content p {
+  .awards .content p {
     font-size: 14px;
     color: #555;
     letter-spacing: 0.3px; }
