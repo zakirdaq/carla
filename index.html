@@ -186,7 +186,7 @@
                 <h1 class="text-uppercase"><strong>CARLA</strong> CUGLIETTA</h1>
                 <p class="type"></p>  <!-- You Can Edit the title on the custom.js File -->
                 <div class="btn-home">
-                    <a href="#work-cont">Portfolio</a>
+                    <a href="Carla Cuglietta presentation package.pdf" target="_blank">Work with Carla</a>
                 </div>
             </div>
         </section>
@@ -549,6 +549,85 @@
         
         <!-- End Work -->
                 
+        <!-- Start Contact -->
+        <section id="contact-cont" class="contact">
+            <div class="title">
+                <h1 class="kaushan">Contact</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <form id="my_form" method="post" onsubmit="submitForm(); return false;">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="name" class="form-control" type="text" name="name" placeholder="Your Name" required/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="email" class="form-control" type="email" name="email" placeholder="Your Email" required/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="phone" class="form-control" type="tel" name="phone" placeholder="Your Phone"/>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input id="subject" class="form-control" type="text" name="subject" placeholder="Subject"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message">
+                                <div class="form-group">
+                                    <textarea id="msg" class="form-control" placeholder="Write Your message here ..." required></textarea>
+                                </div>
+                                <p>
+                                    <span class="send-btn">
+                                        <input id="btn" class="btn" type="submit" value="Send Message" /><i class="fas fa-long-arrow-alt-right"></i>
+                                    </span>
+                                    <span id="status"></span>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="infos background-gradient">
+                        <h2 class="text-uppercase kaushan">Reva</h2>
+                        <div class="email">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:reva@email.com">reva@email.com</a>
+                        </div>
+                        <div class="phone">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+1234567899">+123 456 7899</a>
+                        </div>
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Street Name, City , 32008</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="maps" id="overlay">
+                <div class="open-map">
+                    <span class="o-map active"><i class="fas fa-arrow-alt-circle-down"></i>Open Map</span>
+                    <span class="c-map"><i class="fas fa-arrow-alt-circle-up"></i>Close Map</span>
+                </div>
+                <div class="google-wrapper">
+                    <div id="google-map"> <!-- You Can Add Your Location Here Just Go To Google Map And Emped Map and past it down v -->
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162778.81964475298!2d-73.93891815355539!3d40.703660465248056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2s!4v1491335061565"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- End Contact -->
+
         <!-- Start Loading -->
         
         <div class="loading">

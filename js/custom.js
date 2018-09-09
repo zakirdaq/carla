@@ -80,11 +80,10 @@ $(function () {
         
     });
     
-    $(".btn-home a").on("click", function () {
+    $(".btn-contact a").on("click", function () {
         
-        $('#home-cont').hide();
-        $("#work-cont").fadeIn(500);
-        $('#work').addClass('active-nav').siblings().removeClass('active-nav');
+        $('#course-cont').hide();
+        $("#contact-cont").fadeIn(500);
         
     });
     
