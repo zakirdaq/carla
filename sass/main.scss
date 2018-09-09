@@ -946,6 +946,19 @@ section.close-menu {
             letter-spacing: 0.3px;
         }
     }
+    
+	.btn-contact-course {
+		text-align: center;
+		margin-top: 40px;
+		a {
+			color: #fff;
+			padding: 9px 25px;
+			font-size: 15px;
+			letter-spacing: 0.5px;
+			border-radius: 2px;
+			@include animate( all, 220ms, ease-in-out );
+		}
+	}
 }
 
 

@@ -6,7 +6,7 @@
         $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
         $phone = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
         $msg = filter_var($_POST["msg"], FILTER_SANITIZE_STRING);
-        $to = "you@domain.com";	 // Tape Your Email Here 
+        $to = "carla@youngleaders.world";	 // Tape Your Email Here 
         $from = $email;
         $subject = filter_var($_POST["subject"], FILTER_SANITIZE_STRING);
         $message = '<b>Name:</b> '.$name.' <br><b>Email:</b> '.$email.' <br><b>Phone:</b> '.$phone.' <br><b>Subject:</b> '.$subject.' <p>'.$msg.'</p>';

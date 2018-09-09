@@ -1330,6 +1330,21 @@ section.close-menu {
     font-size: 14px;
     color: #555;
     letter-spacing: 0.3px; }
+  .course .btn-contact-course {
+    text-align: center;
+    margin-top: 40px; }
+    .course .btn-contact-course a {
+      color: #fff;
+      padding: 9px 25px;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      border-radius: 2px;
+      -webkit-transition: all 220ms ease-in-out;
+      -moz-transition: all 220ms ease-in-out;
+      -ms-transition: all 220ms ease-in-out;
+      -o-transition: all 220ms ease-in-out;
+      transition: all 220ms ease-in-out; }
+	
 
 /*==========================================================
 

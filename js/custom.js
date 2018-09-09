@@ -46,6 +46,13 @@ $(function () {
         var myID = $(this).attr("id");
         $("section").hide();
         $("#" + myID + "-cont").fadeIn(100);
+		
+		if(myID == "about" || myID == "keynote" || myID == "educational"){
+			$("link[href*='template']").attr("href", "css/dark_template.css");			
+		}
+		else{
+			$("link[href*='template']").attr("href", "css/light_template.css");			
+		}
         
         $('.about .about-img').removeClass('show-img-abt');
         
@@ -80,10 +87,10 @@ $(function () {
         
     });
     
-    $(".btn-contact a").on("click", function () {
+    $(".btn-contact-course a").on("click", function () {
         
         $('#course-cont').hide();
-        $("#contact-cont").fadeIn(500);
+        $("#contact-course-cont").fadeIn(500);
         
     });
     

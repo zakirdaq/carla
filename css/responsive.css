@@ -213,6 +213,11 @@
         margin: 15px auto 35px;
     }
     
+    .course .btn-contact-course a {
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+
     /* Portfolio */
     
     .work .shuffle ul li {
