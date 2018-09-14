@@ -29,7 +29,7 @@ $(function () {
         dl   = $('.color-option .dl li'),
         // Typed Plugin
         typed = new Typed('.type', {
-            strings: ["Youth Engagement.", "Global Educator.", "Humanitarian."], /* Here Type Your Title */
+            strings: ["Youth Engagement.<br />Global Educator.<br />Humanitarian."], /* Here Type Your Title */
             typeSpeed: 100,
             loop: true,
             backDelay: 1200,
@@ -47,11 +47,11 @@ $(function () {
         $("section").hide();
         $("#" + myID + "-cont").fadeIn(100);
 		
-		if(myID == "about" || myID == "keynote" || myID == "educational"){
-			$("link[href*='template']").attr("href", "css/dark_template.css");			
+		if(myID == "home"){
+			$("link[href*='template']").attr("href", "css/light_template.css");			
 		}
 		else{
-			$("link[href*='template']").attr("href", "css/light_template.css");			
+			$("link[href*='template']").attr("href", "css/dark_template.css");			
 		}
         
         $('.about .about-img').removeClass('show-img-abt');

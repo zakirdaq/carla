@@ -905,12 +905,12 @@ section.close-menu {
       font-size: 22px;
 	  color: #fff; }
     .home .title .typed-cursor, .home .title .type {
-      display: inline; }
+      height: 200px; }
     .home .title .btn-home {
-      margin-top: 300px; }
+      margin-top: 100px; }
       .home .title .btn-home a {
         color: #fff;
-        padding: 6px 20px;
+        padding: 10px 34px;
         font-size: 15px;
         letter-spacing: 1.4px;
         border-radius: 2px;
@@ -1590,6 +1590,9 @@ section.close-menu {
       width: 95%;
       height: 100px;
       resize: none; }
+    .contact .form .message .btn-home {
+      float: right; 
+	  margin: 8px 10px; }
     .contact .form .message .send-btn {
       color: #fff;
       padding: 6px 16px 8px 0px;
@@ -1645,7 +1648,21 @@ section.close-menu {
         font-size: 15px;
         letter-spacing: 0.5px;
         margin-left: 13px; }
-
+		
+      .contact .btn-home a {
+        color: #fff;
+        padding: 10px 34px;
+        font-size: 15px;
+        letter-spacing: 1.4px;
+        border-radius: 2px;
+        -webkit-transition: all 200ms ease-in-out;
+        -moz-transition: all 200ms ease-in-out;
+        -ms-transition: all 200ms ease-in-out;
+        -o-transition: all 200ms ease-in-out;
+        transition: all 200ms ease-in-out; }
+        .home .title .btn-home a:hover {
+          box-shadow: none; }
+		
 /* Start Map */
 .google-wrapper {
   position: relative; }
