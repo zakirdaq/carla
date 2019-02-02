@@ -29,7 +29,7 @@ $(function () {
         dl   = $('.color-option .dl li'),
         // Typed Plugin
         typed = new Typed('.type', {
-            strings: ["Youth Engagement.<br />Global Educator.<br />Humanitarian."], /* Here Type Your Title */
+            strings: ["Engagement Consultant.<br />Keynote Speaker.<br />Humanitarian."], /* Here Type Your Title */
             typeSpeed: 100,
             loop: true,
             backDelay: 1200,
