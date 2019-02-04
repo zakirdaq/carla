@@ -38,11 +38,11 @@ footer p,
 }
 
 .home .title p,
-.work .shuffle ul li,
+.work .shuffle ul li, .speaking .shuffle ul li,
 .about .tabs-about .tab-content .tab-pane.profile h6 span:last-child,
 .about .tabs-about .nav-link, .keynote .tabs-about .nav-link,
 .title h1,
-.work .container h2,
+.work .container h2, .speaking .container h2,
 .option-box .color-option ul li span,
 .option-box .gear-check {
     color: #eee;
@@ -52,7 +52,7 @@ footer p,
 .serv .content p, .award .content p, .course .content p,
 .about p, .keynote p, .educational p,
 .about .tabs-about .tab-content .tab-pane p, .keynote .tabs-about .tab-content .tab-pane p, 
-.educational .tabs-about .tab-content .tab-pane p, .work .tabs-about .tab-content .tab-pane p,
+.educational .tabs-about .tab-content .tab-pane p, .work .tabs-about .tab-content .tab-pane p, .speaking .tabs-about .tab-content .tab-pane p,
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #aaa;
 }
@@ -97,7 +97,7 @@ footer {
 
 .option-box .color-option,
 .contact .infos,
-.work .shuffle ul li.active,
+.work .shuffle ul li.active, .speaking .shuffle ul li.active,
 .option-box .gear-check,
 .navbar .navbar-nav{
     box-shadow: -3px 5px 12px #080808;

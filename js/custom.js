@@ -94,6 +94,14 @@ $(function () {
         
     });
     
+    $(".speaking .btn-contact-speaking a").on("click", function () {
+        
+        $('#speaking-cont').hide();
+        $("#contact-cont").fadeIn(500);
+        $('#contact').addClass('active-nav').siblings().removeClass('active-nav');
+        
+    });
+    
     $(".skill .btn-about a").on("click", function () {
         
         $('#about-cont').hide();

@@ -224,6 +224,17 @@
         margin-bottom: 10px;
     }
     
+    /* Speaking */
+    
+    .speaking .shuffle ul li {
+        margin-bottom: 10px;
+    }
+    
+    .speaking .btn-contact-speaking a {
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+
     /* Testimonials */
     
     .testim .tabbable .list-tabs ul li:first-child {
