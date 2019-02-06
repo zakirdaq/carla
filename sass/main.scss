@@ -1044,15 +1044,15 @@ section.close-menu {
                 @include animate( all, 320ms, ease-in-out );
                 .info-img {
                     position: absolute;
-                    top: 20%;
-                    left: 20px;
-                    right: 20px;
+                    top: 12px;
+                    left: 12px;
+                    right: 12px;
                     text-align: left;
                     h4 {
-                        font-size: 34px;
+                        font-size: 24px;
                     }
                     span {
-                        font-size: 17px;
+                        font-size: 14px;
                         letter-spacing: 0.8px;
                     }
                 }
@@ -1060,7 +1060,7 @@ section.close-menu {
                     position: absolute;
                     bottom: 15px;
                     right: 15px;
-                    font-size: 21px;
+                    font-size: 18px;
                     color: #fff;
                 }
             }

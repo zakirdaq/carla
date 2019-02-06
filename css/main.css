@@ -1509,20 +1509,20 @@ section.close-menu {
     transition: all 320ms ease-in-out; }
     .speaking .gallery .item .over .info-img {
       position: absolute;
-      top: 20%;
-      left: 20px;
-      right: 20px;
+      top: 12px;
+      left: 12px;
+      right: 12px;
       text-align: left; }
       .speaking .gallery .item .over .info-img h4 {
-        font-size: 34px; }
+        font-size: 24px; }
       .speaking .gallery .item .over .info-img span {
-        font-size: 17px;
+        font-size: 14px;
         letter-spacing: 0.8px; }
     .speaking .gallery .item .over a {
       position: absolute;
       bottom: 15px;
       right: 15px;
-      font-size: 21px;
+      font-size: 18px;
       color: #fff; }
   .speaking .gallery .item img {
     -webkit-transition: all 600ms ease-in-out;

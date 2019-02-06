@@ -57,7 +57,7 @@
 
                         if (ajax.responseText === "success") {
 
-                            _("my_form").innerHTML = '<h2>Thanks ' + _("name").value + ',<br> <br> your message has been sent.</h2>';
+                            _("my_form").innerHTML = '<p>Thanks ' + _("name").value + ',<br> Your message has been sent.</p>';
 
                         } else {
 
@@ -201,12 +201,12 @@
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-md-10 col-lg-6">
+                    <div class="col-md-12 col-lg-6">
 						<br />
 						<br />
 						<br />
 						<br />
-                        <iframe width="500" height="315" src="https://www.youtube.com/embed/GlitGYR3JnU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/GlitGYR3JnU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
                         <!-- go to main.scss file to edit personal image -->
                     </div>
                     <div class="col-md-12 col-lg-6">
@@ -354,7 +354,7 @@
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-md-10 col-lg-6">
+                    <div class="col-md-12 col-lg-6">
                         <img class="img-fluid" src="images/speaking.jpg" width="1600" height="1200"> 
                         <!-- go to main.scss file to edit personal image -->
                     </div>
@@ -376,7 +376,7 @@
                                 
                                 <!-- Start Speaking Tab -->
                                 <div class="tab-pane fade show active text-left" id="aboutme" role="tabpanel" aria-labelledby="about-tab">
-                                    <p>Carla has spoken to thousands of people of all age groups on three continents. Her focus areas include: Personal Leadership, Youth Engagement and Educational Change.</p> 
+                                    <p>Carla has spoken to thousands of people of all age groups on three continents. Her focus areas include: Personal Leadership, Next-Gen Engagement and Educational Change.</p> 
 									<p>Her stories, experiences and lessons from around the world ignite audience members to not just be inspired by change, but to make it happen.</p>
                                 </div>
                                 <!-- End Speaking Tab -->
@@ -391,9 +391,16 @@
 			<div class="container">
 				<div class="gallery">
 					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 2rem;">
+							<h2>Keynote and Workshop Topics:</h2>
+						</div>
+					</div>
+					<div class="row">
 						<!-- Start Image Number 1 -->
-						<div class="col-lg-6 col-md-6 col-sm-12">
-							<h4>Leadership. Setting Vision and Direction</h4>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="section-title" style="height: 4rem;">
+								<h4>Leadership. Setting Vision and Direction</h4>
+							</div>
 							<div class="item">
 								<div class="over">
 									<div class="info-img">
@@ -411,8 +418,10 @@
 						<!-- End Image Number 1 -->
 						<!-- ===================== -->
 						<!-- Start Image Number 2 -->
-						<div class="col-lg-6 col-md-6 col-sm-12">
-							<h4>Engaging Next Gen</h4>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="section-title" style="height: 4rem;">
+								<h4>Engaging Next Gen</h4>
+							</div>
 							<div class="item graphic">
 								<div class="over">
 									<div class="info-img">
@@ -432,9 +441,10 @@
 						<!-- End Image Number 2 -->
 						<!-- ===================== -->
 						<!-- Start Image Number 3 -->
-						<div class="col-lg-3 col-md-3 col-sm-12"></div>
-						<div class="col-lg-6 col-md-6 col-sm-12">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="section-title" style="height: 4rem;">
 							<h4>Leadership with Global Insights</h4>
+							</div>
 							<div class="item web">
 								<div class="over">
 									<div class="info-img">
@@ -469,10 +479,30 @@
                 <h1>Consulting</h1>
             </div>
             <div class="container">
+                <div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12" style="margin: 1rem 0;">
+						<h2>Next Gen in the Workplace</h2>
+					</div>
+                    <div class="col-md-12 col-lg-6">
+                        <img src="images/next-gen-workplace.jpg" width="97%" height="333" /> 
+                        <!-- go to main.scss file to edit personal image -->
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+						<p>What if the biggest factor shaping the future success of communities, organizations and workers is whether we can engage one person at a time? What if unlocking discretionary effort is the key? Numerous studies point to findings just like that. If people fully engage in their activities, the future looks bright. If they don't, quite the opposite. The challenge is, engagement levels are perilously low, and the issue has particular impact on emerging workers and employees. Carla will share her findings and insights on how to best engage the next generation of employees in your workplace.</p>
+                    </div>
+                </div>
                 
                 <div class="row">
-                    <div class="col-md-10 col-lg-6">
-                        <img src="images/educational-consultant.jpg" width="500" height="333" /> 
+					<div class="col-lg-12 col-md-12 col-sm-12" style="margin: 1rem 0;">
+					</div>
+                </div>
+                
+                <div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12" style="margin: 1rem 0;">
+						<h2>Educational Consulting</h2>
+					</div>
+                    <div class="col-md-12 col-lg-6">
+                        <img src="images/educational-consultant.jpg" width="97%" height="333" /> 
                         <!-- go to main.scss file to edit personal image -->
                     </div>
                     <div class="col-md-12 col-lg-6">
@@ -641,7 +671,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="form">
-						<h2>Contact Carla about speaking at your event, school or organization.</h2>
+						<h4>Contact Carla about speaking at your event, school or organization.</h4>
                         <form id="my_form" method="post" onsubmit="submitForm(); return false;">
                             <div class="row">
                                 <div class="col-6">
@@ -720,7 +750,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="form">
-						<h2>Contact For More Information.</h2>
+						<h4>Contact For More Information.</h4>
                         <form id="my_form" method="post" onsubmit="submitForm(); return false;">
                             <div class="row">
                                 <div class="col-6">
